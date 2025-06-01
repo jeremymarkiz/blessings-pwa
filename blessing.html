@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!--This charset includes Hebrew-->
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Blessing</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link href="https://fonts.googleapis.com/css2?family=David+Libre&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div id="header-bar">
+        <button id="back-button" onclick="window.location.href='index.html'">Back</button>
+        <div id="font-size-buttons">
+            <button type=button class="font-size-button" onclick="changeFontSize(1.1)">A+</button>
+            <button type=button class="font-size-button" onclick="changeFontSize(.9)">A-</button>
+        </div>
+    </div>
+
+    <main>
+        <p class="blessing-text" id="blessing-text"></p>
+
+    </main>
+
+    <script src="blessings.js"></script>
+    <script src="blessing.js"></script>
+
+</body>
+
+</html>
